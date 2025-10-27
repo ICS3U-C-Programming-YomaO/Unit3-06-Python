@@ -6,6 +6,7 @@
 
 import random
 
+
 def main():
     # generate random number between 0 and 9
     correct_number = random.randint(0, 9)
@@ -26,6 +27,7 @@ def main():
 
     finally:
         print("Thanks for playing!")
+
 
 if __name__ == "__main__":
     main()
